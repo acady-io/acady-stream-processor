@@ -1,0 +1,28 @@
+{
+  "hosting": {
+    "hostingProvider": "npm",
+    "providerData": {
+      "npmPackage": "acady-stream-processor",
+      "npmOrg": "",
+      "npmFullPackage": "acady-stream-processor"
+    }
+  },
+  "accounts": {
+    "github": {
+      "accountId": "christian-schab"
+    },
+    "npm": {
+      "accountId": "christian.schab"
+    }
+  },
+  "repository": {
+    "provider": "github",
+    "gitUrl": "https://github.com/acady-io/acady-stream-processor.git",
+    "fullName": "acady-io/acady-stream-processor"
+  },
+  "name": "Acady Stream Processor",
+  "id": "acady-stream-processor",
+  "type": "backend",
+  "subtype": "backend_library",
+  "template": "template-backend-library"
+}
