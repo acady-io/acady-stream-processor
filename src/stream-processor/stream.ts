@@ -11,6 +11,10 @@ export default abstract class Stream implements StreamInterface {
         this.records.push(record);
     }
 
+    clearRecords() {
+        this.records = [];
+    }
+
     abstract processRecords();
 
 }

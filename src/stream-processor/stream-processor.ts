@@ -26,6 +26,8 @@ export class StreamProcessor {
         const streams: Stream[] = Array.from(this.streamsMap.values());
 
         await Promise.all(streams.map(stream => stream.processRecords()));
+
+        streams.forEach(stream => stream.clearRecords());
     }
 
 }
